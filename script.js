@@ -1,6 +1,6 @@
 // Countdown
 function updateCountdown() {
-    const weddingDate = new Date('December 7, 2025 16:00:00').getTime();
+    const weddingDate = new Date('January 10, 2026 16:00:00').getTime();
     const now = new Date().getTime();
     const distance = weddingDate - now;
 
@@ -68,3 +68,4 @@ document.addEventListener('DOMContentLoaded', function() {
     // Inicializar
     updateIndicators();
 });
+
